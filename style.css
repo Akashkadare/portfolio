@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 /* ----- VARIABLES ----- */
 :root{
@@ -26,12 +27,13 @@ html{
 ::-webkit-scrollbar{
     width: 10px;
     border-radius: 25px;
+
 }
 ::-webkit-scrollbar-track{
-    background: #f1f1f1;
+    background: white;
 }
 ::-webkit-scrollbar-thumb{
-    background: #ccc;
+       background: var(--first-color);
     border-radius: 30px;
 }
 ::-webkit-scrollbar-thumb:hover{
