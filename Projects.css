@@ -31,9 +31,13 @@ h2{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     gap: 20px;
 }
-.box-img{
-    width: 40%;
-    
+.box-img {
+  
+    width: 30%;
+}
+.box-img img{
+width: 200px;
+height: 200px;
 }
 button{
     background-color: var(--text-color-third);
